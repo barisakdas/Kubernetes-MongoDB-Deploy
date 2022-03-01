@@ -22,6 +22,6 @@
     kubectl describe service mongodb-service
     kubectl logs mongo-express-xxxxxx
 
-### give a URL to external service in minikube
+### give a URL to external service
 
-    minikube service mongo-express-service
+    http://localhost:8081/
